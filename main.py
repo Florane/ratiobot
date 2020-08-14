@@ -50,8 +50,12 @@ def main(stdscr):
             shutdown()
 
 def mainMenu(stdscr):
+    if len(os.listdir("save")) == 0:
+        canLoad = -1
+    else:
+        canLoad = 0
     menu = Menu(objects = [Button("New Config",0,State.CREATE_CFG)
-    ,Button("Load config",0,State.LOADING)
+    ,Button("Load config",canLoad,State.LOADING)
     ,Button("Settings",0,State.SETTINGS)
     ,Button("Exit",0,State.EXIT)]
     ,positions = [(i,0) for i in range(0,4)])
