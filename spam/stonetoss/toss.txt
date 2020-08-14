@@ -1,0 +1,11 @@
+throw
+fling
+shoot
+heave
+launch
+yeet
+forceapplying-upon
+pitch
+sling
+send
+project

@@ -1,0 +1,10 @@
+stone
+rock
+gem
+mineral
+pebble
+boulder
+gravel
+bedrock
+sediment
+asteroit
